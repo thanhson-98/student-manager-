@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <span>
+        <b>Detail</b>
+    </span>
+    <span style="font-weight: bold" th:text="${account.name}"></span>
+</div>
+<ul style="list-style: none">
+    StudentId: <span th:text="${account.studentId}"></span><br>
+    Name: <span th:text="${account.name}"></span><br>
+    Email: <span th:text="${account.email}"></span>
+</ul>
+</body>
+</html>
